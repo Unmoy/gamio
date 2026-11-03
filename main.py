@@ -90,7 +90,7 @@ def good_score(number_of_guesses, range_):
 
 
 def high_scores():
-    """getting high scores from user input"""
+    """getting high scores from user input """
     scores = []
     with open("scores.txt") as in_file:
         for line in in_file:
